@@ -32,7 +32,7 @@ export default {
         apatch_denylist: 'La lista d\'esclusione di APatch si riferisce all\'app SuperUtente la quale \'Exclude\' è abilita e disabilita root',
     },
     settings: {
-        log_to_kernel: 'Registra i log a dmesg (Solo per developers)',
+        log_to_kernel: 'Registra i log a dmesg (Solo per sviluppatori)',
         nonroot_as_denylist: 'Tratta le app non-root come lista d\'esclusione',
         enforce_denylist: 'Politica della lista d\'esclusione',
         enforce_denylist_desc: 'Forzato: Blocca le modifiche di iniezione e modifiche per app in lista d\'esclusione.<br/>Solo Umount: Inverti modifiche di montaggio ma autorizza l\'iniezione di codice per app in lista di esclusione.',
@@ -68,7 +68,7 @@ export default {
           
     corrupted: {
         title: 'File dei moduli corrotti',
-        desc: 'Per favore annulla le modifiche a Zygisk Next e riprova.'
+        desc: 'Per favore annulla le modifiche a Zygisk Next e riprova.',
     }
     module: {
         issue: {
