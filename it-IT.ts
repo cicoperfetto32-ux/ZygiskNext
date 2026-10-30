@@ -17,7 +17,7 @@ export default {
         copy_path: 'Copia percorso',
         copy_path_failed: 'Impossibile copiare il percorso',
         send_log: 'Invia log',
-        send_failed: 'Invio fallito',
+        send_failed: 'Invio non riuscito',
     },
     dashboard: {
         root_impl: 'Implementazione root',
