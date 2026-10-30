@@ -48,7 +48,7 @@ export default {
     zygote_inject_state: {
         running: 'Attivo',
         stop_by_user: 'Fermato dall\'utente',
-        stop_by_crash: 'Fermato dal crash di Zygote',
+        stop_by_crash: 'Arrestato a causa di un crash di Zygote',
         running_desc: 'Il monitor di Zygote sta funzionanso normalmente.',
         stop_by_user_desc: 'Monitor di Zygote fermato dall\'utente',
         stop_by_crash_desc: 'Sono stati rilevati ripetuti riavvi di Zygote, Il monitor di Zygote è stato fermato automaticamente.',
@@ -78,7 +78,7 @@ export default {
             crash_issue: 'Il modulo {name} è apparso nel crash del thread backtrace di: {processes}.',
             unknown_process: 'processo sconosciuto',
             learn_more: 'Visita qui per ulteriori informazioni: {link}',
-            check_banner: 'Nessun modulo con problemi trovato. | {0} modulo ha un problema. Per favore revisione la lista dei moduli. | {0} moduli hanno errori. Per favore revisiona la lista dei moduli.',
+            check_banner: 'Nessun modulo con problemi trovato. | {0} modulo ha un problema. Per favore controlla la lista dei moduli. | {0} moduli hanno errori. Per favore controlla la lista dei moduli.',
             badge: 'Problema',
             crash_badge: 'Crash',
         },
